@@ -1,9 +1,42 @@
-body {
-  background: red;
+:root {
+  --primary-brand-colour: #004934;
+  --secondary-brand-colour: #d8d5ce;
+  --default-font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 h1 {
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: var(--default-font-family);
   font-size: 100px;
   font-weight: lighter;
+}
+
+.hero {
+  text-align: center;
+  padding: 160px 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--primary-brand-colour);
+  font-family: var(--default-font-family);
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  line-height: 2;
+}
+p {
+  color: var(--primary-brand-colour);
+}
+.btn-branding {
+  background: var(--secondary-brand-colour);
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 18px;
 }

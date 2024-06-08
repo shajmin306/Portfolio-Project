@@ -4,17 +4,6 @@
   --default-font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-h1 {
-  font-family: var(--default-font-family);
-  font-size: 100px;
-  font-weight: lighter;
-}
-
-.hero {
-  text-align: center;
-  padding: 160px 20px;
-}
-
 h1,
 h2,
 h3,
@@ -23,19 +12,43 @@ h5 {
   color: var(--primary-brand-colour);
   font-family: var(--default-font-family);
 }
-
 h1 {
-  font-weight: 700;
+  font-family: var(--default-font-family);
+  font-size: 100px;
+  font-weight: bold;
 }
 
-h2 {
+h3 {
   line-height: 2;
+  text-align: center;
 }
 p {
   color: var(--primary-brand-colour);
+  text-align: center;
 }
+
+.hero {
+  text-align: center;
+  padding: 80px 60px 20px;
+}
+.categories {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .btn-branding {
   background: var(--secondary-brand-colour);
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.learn-more {
+  background: var(--primary-brand-colour);
+  color: white;
+  text-decoration: none;
   padding: 10px 15px;
   border-radius: 4px;
   font-size: 18px;

@@ -31,11 +31,9 @@ p {
   text-align: center;
   padding: 80px 60px 20px;
 }
-.categories {
-  display: flex;
-  justify-content: space-around;
-  font-weight: bold;
-  text-decoration: underline;
+
+.project-description {
+  text-align: center;
 }
 
 .btn-branding {

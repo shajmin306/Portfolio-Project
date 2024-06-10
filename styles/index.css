@@ -27,6 +27,12 @@ p {
   text-align: center;
 }
 
+img {
+  width: 400px;
+  margin-top: 90px;
+  padding: 30px;
+  border-radius: 4px;
+}
 .hero {
   text-align: center;
   padding: 80px 60px 20px;
@@ -50,6 +56,28 @@ p {
   padding: 10px 15px;
   border-radius: 4px;
   font-size: 18px;
+}
+
+.about-hero h1 {
+  font-family: var(--default-font-family);
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+  padding: 80px 60px 20px;
+}
+
+.about-hero h2 {
+  font-family: var(--default-font-family);
+  font-size: 44px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.about-hero p {
+  text-align: left;
+}
+.about-content {
+  padding: 30px;
 }
 
 @media (max-width: 960px) {

@@ -33,6 +33,14 @@ img {
   padding: 30px;
   border-radius: 4px;
 }
+
+.navbar-green {
+  background-color: #004934;
+}
+
+.text-white {
+  color: white;
+}
 .hero {
   text-align: center;
   padding: 80px 60px 20px;

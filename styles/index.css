@@ -38,6 +38,27 @@ img {
   background-color: #004934;
 }
 
+footer {
+  margin: 40px 0;
+}
+footer p {
+  font-size: 36px;
+}
+
+footer .social-links a {
+  margin: 0 40px;
+  color: var(--primary-brand-colour);
+  font-size: 20px;
+  background-color: var(--secondary-brand-colour);
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: var(--secondary-brand-colour);
+  background-color: var(--primary-brand-colour);
+}
+
 .text-white {
   color: white;
 }

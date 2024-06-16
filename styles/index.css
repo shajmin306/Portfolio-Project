@@ -29,20 +29,17 @@ p {
 
 img {
   width: 400px;
-  margin-top: 90px;
-  padding: 30px;
+  border: 1px solid var(--primary-brand-colour);
   border-radius: 4px;
-}
-
-.navbar-green {
-  background-color: #004934;
+  display: block;
+  margin: 0 auto;
 }
 
 footer {
   margin: 40px 0;
 }
 footer p {
-  font-size: 36px;
+  font-size: 30px;
 }
 
 footer .social-links a {
@@ -60,9 +57,15 @@ footer .social-links a:hover {
 }
 
 footer h3 {
-  font-size: 18px;
+  font-size: 12px;
+}
+.navbar-green {
+  background-color: #004934;
 }
 
+.navbar-toggler {
+  background-color: white;
+}
 .text-white {
   color: white;
 }
@@ -89,6 +92,18 @@ footer h3 {
   padding: 10px 15px;
   border-radius: 4px;
   font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+.learn-more:hover {
+  background: white;
+  color: var(--primary-brand-colour);
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 1px solid var(--primary-brand-colour);
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
 }
 
 .content h1 {
@@ -96,7 +111,7 @@ footer h3 {
   font-size: 80px;
   font-weight: bold;
   text-align: center;
-  padding: 80px 60px 20px;
+  padding: 50px 60px 30px;
 }
 
 .content h2 {
@@ -118,6 +133,9 @@ footer h3 {
 }
 .content-container {
   padding: 30px;
+}
+.about-name {
+  text-align: left;
 }
 
 @media (max-width: 960px) {

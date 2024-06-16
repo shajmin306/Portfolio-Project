@@ -59,6 +59,10 @@ footer .social-links a:hover {
   background-color: var(--primary-brand-colour);
 }
 
+footer h3 {
+  font-size: 18px;
+}
+
 .text-white {
   color: white;
 }
